@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A layout example that shows off a responsive product landing page.">
-  <title>NaNoWriMo Bingo Card Generator </title>
+  <title>Ham Radio Bingo Card Generator </title>
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
   <!--[if lte IE 8]>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie.css">
@@ -24,21 +24,21 @@
 <body>
 <div class="header no-print">
     <div class="no-print home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="">Nano Bingo</a>
+        <a class="pure-menu-heading" href="">Ham Radio Bingo</a>
         <ul>
             <li class="pure-menu-selected"><a href="#">Home</a></li>
             <li class="pure-menu"><a href="#Card">Bingo Card</a></li>
             <li class="pure-menu"><a href="#Settings">Settings</a></li>
-            <li class="pure-menu"><a href="http://nanowrimo.org/">NaNoWriMo</a></li>
+            <li class="pure-menu"><a href="http://radioham.org/">Stillwater Amateur Radio Association</a></li>
         </ul>
     </div>
 </div>
 
 <div class="splash-container no-print">
     <div class="splash">
-        <h1 class="splash-head">Novel Writing Bingo Card Generator</h1>
+        <h1 class="splash-head">Ham Radio Card Generator</h1>
         <p class="splash-subhead">
-            Writing 50,000 words in a month is the main course.  Let's add some spice!
+            Ham radio has a thousand and one ways to operate, things that you could spend your life figuring out.  Why not spice it up with challenges to do things a little more uniquely, especially for contests?  Or even add spice to Field Day as people practice social distancing!
         </p>
     </div>
 </div>
@@ -118,7 +118,7 @@ echo "</tbody>";
             <div class="pure-u-1 pure-u-lg-1-5">&nbsp;</div>
             </div>
             <p class="is-center">
-                Your Bingo Card is ready to be used.  Simply save this link, or print out this page to use your bingo card for novel writing.
+                Your Bingo Card is ready to be used.  Simply save this link, or print out this page to use your bingo card for ham radio challenges.
             </p>
         </div>
     </div>
@@ -136,7 +136,7 @@ echo "</tbody>";
             You may select your bingo card challenge groups right here.  Make it as hard (or as simple) as you want.  Clicking 'Generate' will recreate the same card seen on the page now.  Changing the seed without changing selected categories will generate a new card with the same groups as before.  If you wish to save a copy of your bingo card, just 'print' the page!  You will get your bingo card and only your bingo card.
         </p>
         <p>
-Many thanks to the countless individuals who helped make this possible on the forums, supplying ideas and constantly encouraging us!  Thank you!  List ideas are always welcome, see below to contact us.
+Many thanks to the countless individuals who helped make this possible, supplying ideas and constantly encouraging!  Thank you!  List ideas are always welcome, see below to contact us.
         </p>
         <form class='pure-form' action='index.php' method="get"><fieldset>
         <div class="pure-g">
@@ -190,7 +190,7 @@ foreach($sortedListItems as $category => $items) {
     </div>
 
     <div class="footer l-box is-center no-print">
-        <p>Made by Collin '<a href="https://www.twitter.com/meddeveloper">Ridayah</a>' O'Connor with help from Alexandra '<a href="https://www.twitter.com/chomskyrabbit">Chomskyrabbit</a>' McGowan. &copy; 2014.  Questions, comments?  Contact <a href='mailto:webmaster_IfItsBetweenAndIncludesUnderscoresItsGone__@feather-mage.com'>Webmaster</a></p>
+        <p>Made by Collin 'KE0IYN' O'Connor. &copy; 2029.  Questions, comments?  Contact <a href='mailto:ke0iyn_IfItsBetweenAndIncludesUnderscoresItsGone__@radioham.org'>Webmaster</a></p>
     </div>
 </div>
 </body>
