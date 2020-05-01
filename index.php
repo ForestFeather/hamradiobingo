@@ -17,7 +17,7 @@
   <![endif]-->
   <!--[if gt IE 8]><!-->
     <link rel="stylesheet" href="css/layouts/marketing.css">
-    <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print">
   <!--<![endif]-->
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 </head>
@@ -99,14 +99,14 @@ for ( $i = 25; $i >= 0; $i--)
 
 $bingoHeader = Array('B','I','N','G','O');
 echo "<thead><tr>";
-for( $i = 0; $i < 5; $i++ ) {   echo "<th width='20%' class='is-center'>" . $bingoHeader[$i] . "</th>"; }
+for( $i = 0; $i < 5; $i++ ) {   echo "<th class='is-center'>" . $bingoHeader[$i] . "</th>"; }
 echo "</tr></thead>";
 echo "<tbody>";
 for( $i = 0; $i < 5; $i++ ) {
     echo "<tr>";
     for( $j = 0; $j < 5; $j++ ) {
-        if ( isset($_GET['free']) && ($i*5 + $j) == 12 ) { echo "<td>FREE TILE</td>"; }
-        else { echo "<td>" . $bingoItems[($i*5) + $j] . "</td>"; }
+        if ( isset($_GET['free']) && ($i*5 + $j) == 12 ) { echo "<td><div class='cell-content'>FREE TILE</div></td>"; }
+        else { echo "<td><div class='cell-content'>" . $bingoItems[($i*5) + $j] . "</div></td>"; }
         // echo "<td>SAMPLE CONTENT</td>";
     }
     echo "</tr>";
