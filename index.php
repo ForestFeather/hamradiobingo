@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A layout example that shows off a responsive product landing page.">
+  <meta name="description" content="Generate cards for ham radio bingo, especially useful for Field Day challenges!">
   <title>Ham Radio Bingo Card Generator </title>
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
   <!--[if lte IE 8]>
@@ -38,7 +38,7 @@
     <div class="splash">
         <h1 class="splash-head">Ham Radio Card Generator</h1>
         <p class="splash-subhead">
-            Ham radio has a thousand and one ways to operate, things that you could spend your life figuring out.  Why not spice it up with challenges to do things a little more uniquely, especially for contests?  Or even add spice to Field Day as people practice social distancing!
+            Ham radio has a thousand and one ways to operate, things that you could spend your life figuring out.  Why not spice it up with challenges to do things a little more uniquely, especially for contests?  Or even add spice to Field Day as people practice social distancing! Scoll down for your bingo card, and generate a unique one for you!
         </p>
     </div>
 </div>
@@ -190,7 +190,7 @@ foreach($sortedListItems as $category => $items) {
     </div>
 
     <div class="footer l-box is-center no-print">
-        <p>Made by Collin 'KE0IYN' O'Connor. &copy; 2029.  Questions, comments?  Contact <a href='mailto:ke0iyn_IfItsBetweenAndIncludesUnderscoresItsGone__@radioham.org'>Webmaster</a></p>
+        <p>Made by Collin 'KE0IYN' O'Connor. &copy; 2020.  Questions, comments?  Contact <a href='mailto:ke0iyn_IfItsBetweenAndIncludesUnderscoresItsGone__@radioham.org'>Webmaster</a></p>
     </div>
 </div>
 </body>
