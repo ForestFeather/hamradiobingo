@@ -51,7 +51,7 @@
             <div class="l-box pure-u-1">
                 <div class="pure-g">
                     <div class="pure-u-1 pure-u-lg-1-5">&nbsp;</div>
-                    <div class="pure-u-1 pure-u--lg-3-5">
+                    <div class="pure-u-1 pure-u--lg-3-5 is-center">
                     <table class="pure-table pure-table-bordered is-center">
 <?php
 include('lists.php');
@@ -105,7 +105,7 @@ echo "<tbody>";
 for( $i = 0; $i < 5; $i++ ) {
     echo "<tr>";
     for( $j = 0; $j < 5; $j++ ) {
-        if ( isset($_GET['free']) && ($i*5 + $j) == 12 ) { echo "<td><div class='cell-content'>FREE TILE</div></td>"; }
+        if ( isset($_GET['free']) && ($i*5 + $j) == 12 ) { echo "<td><div class='cell-content bold'>FREE TILE</div></td>"; }
         else { echo "<td><div class='cell-content'>" . $bingoItems[($i*5) + $j] . "</div></td>"; }
         // echo "<td>SAMPLE CONTENT</td>";
     }
