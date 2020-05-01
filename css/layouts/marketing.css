@@ -269,11 +269,11 @@
 
     th .pure-table {
         font-weight: bold;
-        font-size: x-large;
     }
 
     td {
         width: 20%;
+        min-width: 75px;
         position: relative;
     }
 
@@ -292,8 +292,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        font-size: large;
-        font-weight: bold;
+        font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
+        line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
         padding: 5px;
     }
 
